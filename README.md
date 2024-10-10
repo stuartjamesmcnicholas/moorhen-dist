@@ -30,3 +30,10 @@ In express, you might have something like:
               next();
           });
 ```
+and something like this might (untested) work in Apache `.htaccess` file:
+```
+<IfModule mod_headers.c>
+    Header add Cross-Origin-Opener-Policy "same-origin"
+    Header add Cross-Origin-Embedder-Policy "require-corp"
+</IfModule>
+```
