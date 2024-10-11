@@ -1,6 +1,6 @@
 {
   "name": "moorhen-distrib",
-  "version": "0.13.0-alpha.2",
+  "version": "0.13.0",
   "homepage": "./",
   "author": "Paul Emsley, Filomeno Sanchez Rodriguez, Martin Noble, Stuart McNicholas, Lucrezia Catapano, Jakub Smulski",
   "description": "Moorhen molecular graphics",
@@ -12,7 +12,7 @@
     "interactive model building"
   ],
   "dependencies": {
-    "moorhen": "^0.13.0-alpha.2"
+    "moorhen": "^0.13.0"
   },
   "scripts": {
     "build": "cp -a node_modules/moorhen/public/* public/;cp -r node_modules/moorhen/moorhen.css ./src/ ;react-scripts build"
@@ -30,6 +30,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "*",
     "@mui/material": "*",
     "react-bootstrap": "*",
     "react-dom": "*",

@@ -1,4 +1,4 @@
-import { useRef, useState, useReducer } from 'react';
+import { useRef, useState } from 'react';
 import { useDispatch, Provider } from 'react-redux'
 import { MoorhenContainer, MoorhenReduxStore } from 'moorhen';
 
