@@ -37,3 +37,17 @@ and something like this in an Apache `.htaccess` file:
     Header add Cross-Origin-Embedder-Policy "require-corp"
 </IfModule>
 ```
+## Serving from a sub-directory of server
+In order to do this, you need to edit the line `const urlPrefix = "/baby-gru"` in `src/App.tsx`
+
+This should be set to the path part of the Moorhen URL + `/baby-gru`
+
+e.g. If you are serving like:
+
+`http://localhost:8000/foo/bar/sna/fu/`
+ 
+then do:
+
+`const urlPrefix = "/foo/bar/sna/fu/baby-gru"`
+
+
