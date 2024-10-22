@@ -1,6 +1,6 @@
 {
   "name": "moorhen-distrib",
-  "version": "0.13.0",
+  "version": "0.13.1-beta.0",
   "homepage": "./",
   "author": "Paul Emsley, Filomeno Sanchez Rodriguez, Martin Noble, Stuart McNicholas, Lucrezia Catapano, Jakub Smulski",
   "description": "Moorhen molecular graphics",
@@ -12,7 +12,7 @@
     "interactive model building"
   ],
   "dependencies": {
-    "moorhen": "^0.13.0",
+    "moorhen": "^0.13.1-beta.0",
     "postcss-preset-env": "^10.0.7",
     "react-scripts": "^5.0.1"
   },
