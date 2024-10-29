@@ -1,6 +1,6 @@
 {
   "name": "moorhen-distrib",
-  "version": "0.13.1-beta.0",
+  "version": "0.13.1",
   "homepage": "./",
   "author": "Paul Emsley, Filomeno Sanchez Rodriguez, Martin Noble, Stuart McNicholas, Lucrezia Catapano, Jakub Smulski",
   "description": "Moorhen molecular graphics",
