@@ -12,7 +12,7 @@
     "interactive model building"
   ],
   "dependencies": {
-    "moorhen": "^0.16.3",
+    "moorhen": "^0.17.1",
     "postcss-preset-env": "^10.0.7",
     "react-scripts": "^5.0.1"
   },
