@@ -30,7 +30,7 @@ In express, you might have something like:
               next();
           });
 ```
-and something like this in an Apache `.htaccess` file:
+and something like this in an Apache `.htaccess` file (or better in apache config files):
 ```
 <IfModule mod_headers.c>
     Header add Cross-Origin-Opener-Policy "same-origin"
